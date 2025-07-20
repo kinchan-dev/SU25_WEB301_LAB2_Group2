@@ -1,0 +1,20 @@
+/* contact.css - Chỉ dành cho trang liên hệ */
+.input-error {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+.form-error {
+  color: #dc3545;
+  font-size: 0.95em;
+  margin-top: 4px;
+  display: block;
+}
+.contact-form .btn-highland {
+  background-color: var(--highland-brown, #3c1e00);
+  color: #fff;
+  border: none;
+}
+.contact-form .btn-highland:hover {
+  background-color: var(--highland-gold, #DAA520);
+  color: #3c1e00;
+}

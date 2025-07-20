@@ -1,0 +1,90 @@
+  :root {
+    --highland-brown: #3F2305;
+    --highland-light-brown: #8B4513;
+    --highland-cream: #F5E6D3;
+    --highland-gold: #DAA520;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf5;
+  }
+
+  .navbar-custom {
+    background-color: var(--highland-brown);
+  }
+
+  .navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .nav-link.active {
+    color: var(--highland-gold) !important;
+  }
+
+  .section-padding {
+    padding: 4rem 0;
+  }
+
+  .promo-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  .promo-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .footer-custom {
+    background-color: var(--highland-brown);
+    color: white;
+    padding: 3rem 0 1rem;
+    width: 100%;
+  }
+  .footer-custom a {
+    color: var(--highland-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footer-custom a:hover {
+    color: white;
+  }
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--highland-gold);
+    color: var(--highland-brown);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+  }
+  .social-icons a:hover {
+    background: white;
+    transform: translateY(-3px);
+  }
+  .logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--highland-gold);
+  }
+  .form-error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+
+  .input-error {
+    border-color: red;
+  }
+

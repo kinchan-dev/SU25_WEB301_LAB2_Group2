@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Highlands Coffee - Cà Phê Nguyên Chất Việt Nam</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Header với Banner -->
+  <header class="hero-banner">
+    <div class="container">
+      <div class="hero-content text-center">
+        <div class="logo-text floating-animation mb-4">
+          <i class="ri-cup-line me-2"></i>
+          Highlands Coffee
+        </div>
+        <h1 class="display-4 mb-3 pulse-animation">
+          Cà Phê Nguyên Chất Việt Nam
+        </h1>
+        <p class="lead mb-4">
+          Hương vị đậm đà từ những hạt cà phê tuyển chọn, mang đến trải nghiệm
+          tuyệt vời cho mọi tách cà phê
+        </p>
+        <button class="btn btn-highland btn-lg">
+          <i class="ri-arrow-down-line me-2"></i>
+          Khám Phá Ngay
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="#">
+        <i class="ri-cup-fill me-2"></i>
+        Highlands Coffee
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Trang Chủ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="thucdon.html" role="button" data-bs-toggle="dropdown">
+              Thực Đơn
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="thucdon.html#coffee">Cà Phê</a></li>
+              <li><a class="dropdown-item" href="thucdon.html#tea">Trà & Đá Xay</a></li>
+              <li><a class="dropdown-item" href="thucdon.html#food">Bánh & Snack</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">Về Chúng Tôi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Cửa Hàng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promotions.html">Khuyến Mãi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Liên Hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Content -->
+  <main>
+    <!-- Section 1: Giới thiệu -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <article class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-5 mb-4">Câu Chuyện Highlands Coffee</h2>
+            <p class="lead mb-4">
+              Từ năm 1999, Highlands Coffee đã trở thành thương hiệu cà phê
+              hàng đầu Việt Nam, mang đến những tách cà phê chất lượng cao với
+              hương vị đặc trưng của đất nước.
+            </p>
+            <p class="mb-4">
+              Chúng tôi tự hào sử dụng 100% hạt cà phê Robusta và Arabica được
+              trồng tại những vùng đất cao nguyên Việt Nam, qua quy trình rang
+              xay và pha chế chuyên nghiệp, tạo nên hương vị đậm đà, thơm ngon
+              khó quên.
+            </p>
+            <div class="d-flex align-items-center">
+              <div class="me-4">
+                <h4 class="text-primary mb-1">500+</h4>
+                <small class="text-muted">Cửa hàng</small>
+              </div>
+              <div class="me-4">
+                <h4 class="text-primary mb-1">25+</h4>
+                <small class="text-muted">Năm kinh nghiệm</small>
+              </div>
+              <div>
+                <h4 class="text-primary mb-1">10M+</h4>
+                <small class="text-muted">Khách hàng</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="https://readdy.ai/api/search-image?query=vietnamese%20coffee%20shop%20interior%20warm%20lighting%20wooden%20furniture%20cozy%20atmosphere%20highlands%20coffee%20traditional%20brewing%20equipment&width=600&height=400&seq=about001&orientation=landscape"
+              alt="Highlands Coffee Interior" class="img-fluid rounded shadow" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Section 2: Bảng Thực Đơn -->
+    <section id="menu" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 mb-3">Thực Đơn Đặc Biệt</h2>
+          <p class="lead">
+            Khám phá những món đồ uống và thức ăn tuyệt vời tại Highlands
+            Coffee
+          </p>
+        </div>
+        <div class="table-custom">
+          <table class="table table-hover mb-0">
+            <thead>
+              <tr>
+                <th scope="col">Tên Sản Phẩm</th>
+                <th scope="col">Mô Tả</th>
+                <th scope="col">Giá (VNĐ)</th>
+                <th scope="col">Đánh Giá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Cà Phê Phin Đen</strong></td>
+                <td>Cà phê đen truyền thống, đậm đà hương vị Việt Nam</td>
+                <td>35,000</td>
+                <td>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Cà Phê Sữa Đá</strong></td>
+                <td>Cà phê phin kết hợp sữa đặc, thơm ngon mát lạnh</td>
+                <td>42,000</td>
+                <td>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-half-fill text-warning"></i>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Freeze Trà Xanh</strong></td>
+                <td>Đá xay trà xanh matcha, béo ngậy và mát lạnh</td>
+                <td>55,000</td>
+                <td>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-line text-warning"></i>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Bánh Mì Nướng Muối Ớt</strong></td>
+                <td>Bánh mì giòn rụm với muối ớt đặc biệt</td>
+                <td>28,000</td>
+                <td>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-line text-warning"></i>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Bánh Flan Cà Phê</strong></td>
+                <td>Bánh flan mềm mịn với hương vị cà phê đặc trưng</td>
+                <td>32,000</td>
+                <td>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-fill text-warning"></i>
+                  <i class="ri-star-half-fill text-warning"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3: Khu Vực Đặc Biệt -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="special-section text-center">
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card card-custom h-100">
+                <img
+                  src="https://readdy.ai/api/search-image?query=special%20coffee%20promotion%20discount%20voucher%20golden%20brown%20background%20elegant%20design%20highlands%20coffee&width=400&height=250&seq=promo001&orientation=landscape"
+                  class="card-img-top" alt="Khuyến mãi đặc biệt" />
+                <div class="card-body">
+                  <h5 class="card-title">Ưu Đãi Thành Viên</h5>
+                  <p class="card-text">
+                    Giảm giá 20% cho tất cả đồ uống khi đăng ký thành viên mới
+                  </p>
+                  <button class="btn btn-highland">Đăng Ký Ngay</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card card-custom h-100">
+                <img
+                  src="https://readdy.ai/api/search-image?query=happy%20hour%20coffee%20time%20clock%20golden%20background%20warm%20lighting%20cozy%20atmosphere%20highlands%20coffee&width=400&height=250&seq=happy001&orientation=landscape"
+                  class="card-img-top" alt="Happy Hour" />
+                <div class="card-body">
+                  <h5 class="card-title">Happy Hour</h5>
+                  <p class="card-text">
+                    Mua 1 tặng 1 cho tất cả đồ uống từ 14:00 - 16:00 hàng ngày
+                  </p>
+                  <button class="btn btn-highland">Xem Chi Tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card card-custom h-100">
+                <img
+                  src="https://readdy.ai/api/search-image?query=coffee%20delivery%20service%20motorcycle%20fast%20delivery%20warm%20brown%20background%20highlands%20coffee%20logo&width=400&height=250&seq=delivery001&orientation=landscape"
+                  class="card-img-top" alt="Giao hàng tận nơi" />
+                <div class="card-body">
+                  <h5 class="card-title">Giao Hàng Tận Nơi</h5>
+                  <p class="card-text">
+                    Miễn phí giao hàng cho đơn hàng từ 200,000đ trong bán kính
+                    5km
+                  </p>
+                  <button class="btn btn-highland">Đặt Hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 4: Danh Sách Dịch Vụ -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="display-6 mb-4">Dịch Vụ Của Chúng Tôi</h2>
+            <ul class="service-list">
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-wifi-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">WiFi Miễn Phí</h5>
+                  <p class="mb-0 text-muted">
+                    Kết nối internet tốc độ cao tại tất cả cửa hàng
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-truck-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Giao Hàng Nhanh</h5>
+                  <p class="mb-0 text-muted">
+                    Giao hàng trong vòng 30 phút tại khu vực nội thành
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-gift-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Chương Trình Tích Điểm</h5>
+                  <p class="mb-0 text-muted">
+                    Tích điểm mỗi lần mua hàng, đổi quà hấp dẫn
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-calendar-event-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Tổ Chức Sự Kiện</h5>
+                  <p class="mb-0 text-muted">
+                    Cho thuê không gian tổ chức sinh nhật, họp mặt
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-smartphone-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Đặt Hàng Online</h5>
+                  <p class="mb-0 text-muted">
+                    Đặt hàng dễ dàng qua app hoặc website
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <div class="me-3">
+                  <i class="ri-customer-service-line ri-2x" style="color: var(--highland-brown);"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Hỗ Trợ 24/7</h5>
+                  <p class="mb-0 text-muted">
+                    Đội ngũ chăm sóc khách hàng luôn sẵn sàng hỗ trợ
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center h-100">
+              <img
+                src="https://readdy.ai/api/search-image?query=highlands%20coffee%20service%20quality%20customer%20satisfaction%20barista%20making%20coffee%20professional%20warm%20atmosphere%20vietnamese%20coffee%20culture&width=600&height=500&seq=service001&orientation=portrait"
+                alt="Dịch vụ chất lượng" class="img-fluid rounded shadow mx-auto d-block"
+                style="max-height: 400px; object-fit: cover;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- News Section -->
+  <section id="news" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-6 mb-3">Tin Tức & Sự Kiện</h2>
+        <p class="lead">
+          Cập nhật những tin tức mới nhất từ Highlands Coffee
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card card-custom h-100">
+            <img
+              src="https://readdy.ai/api/search-image?query=coffee%20event%20celebration%20people%20enjoying%20vietnamese%20coffee%20modern%20cafe%20setting%20warm%20lighting&width=400&height=300&seq=news001&orientation=landscape"
+              class="card-img-top" alt="Sự kiện cà phê" />
+            <div class="card-body d-flex flex-column" style="height: 100%;">
+              <div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="ri-calendar-line me-2" style="color: var(--highland-brown);"></i>
+                  <small class="text-muted">15 Tháng 7, 2024</small>
+                </div>
+                <h5 class="card-title">
+                  Khai Trương Cửa Hàng Mới tại Landmark 81
+                </h5>
+                <p class="card-text">
+                  Highlands Coffee vui mừng thông báo khai trương cửa hàng mới
+                  tại tòa nhà cao nhất Việt Nam với không gian độc đáo và menu
+                  đặc biệt.
+                </p>
+              </div>
+              <div class="mt-auto text-center">
+                <a href="#" class="btn btn-highland">Xem Chi Tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card card-custom h-100">
+            <img
+              src="https://readdy.ai/api/search-image?query=coffee%20beans%20harvest%20sustainable%20farming%20vietnamese%20coffee%20plantation%20morning%20light&width=400&height=300&seq=news002&orientation=landscape"
+              class="card-img-top" alt="Thu hoạch cà phê" />
+            <div class="card-body d-flex flex-column" style="height: 100%;">
+              <div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="ri-calendar-line me-2" style="color: var(--highland-brown);"></i>
+                  <small class="text-muted">12 Tháng 7, 2024</small>
+                </div>
+                <h5 class="card-title">Dự Án Cà Phê Bền Vững Tại Tây Nguyên</h5>
+                <p class="card-text">
+                  Khám phá hành trình từ nông trại đến tách cà phê và cam kết
+                  của chúng tôi về phát triển bền vững.
+                </p>
+              </div>
+              <div class="mt-auto text-center">
+                <a href="#" class="btn btn-highland">Xem Chi Tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card card-custom h-100">
+            <img
+              src="https://readdy.ai/api/search-image?query=barista%20competition%20professional%20coffee%20making%20skills%20modern%20cafe%20setting%20warm%20atmosphere&width=400&height=300&seq=news003&orientation=landscape"
+              class="card-img-top" alt="Cuộc thi pha chế" />
+            <div class="card-body d-flex flex-column" style="height: 100%;">
+              <div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="ri-calendar-line me-2" style="color: var(--highland-brown);"></i>
+                  <small class="text-muted">10 Tháng 7, 2024</small>
+                </div>
+                <h5 class="card-title">
+                  Cuộc Thi Barista Highlands Coffee 2024
+                </h5>
+                <p class="card-text">
+                  Theo dõi những màn trình diễn ấn tượng từ các barista tài năng
+                  trong cuộc thi thường niên của chúng tôi.
+                </p>
+              </div>
+              <div class="mt-auto text-center">
+                <a href="#" class="btn btn-highland">Xem Chi Tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-highland btn-lg">
+          <i class="ri-article-line me-2"></i>Xem Thêm Tin Tức
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="mb-3">
+            <i class="ri-cup-fill me-2"></i>
+            Highlands Coffee
+          </h5>
+          <p class="mb-3">
+            Thương hiệu cà phê hàng đầu Việt Nam, mang đến hương vị đậm đà từ
+            những hạt cà phê chất lượng cao.
+          </p>
+          <div class="mb-3">
+            <p class="mb-1">
+              <i class="ri-map-pin-line me-2"></i>
+              Tầng 3-4, Tòa nhà Vincom Center, 72 Lê Thánh Tôn, Quận 1, TP.HCM
+            </p>
+            <p class="mb-1">
+              <i class="ri-phone-line me-2"></i>
+              Hotline: 1800 6936
+            </p>
+            <p class="mb-0">
+              <i class="ri-mail-line me-2"></i>
+              info@highlandscoffee.com.vn
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <h5 class="mb-3">Giờ Mở Cửa</h5>
+          <div class="mb-2">
+            <strong>Thứ 2 - Thứ 6:</strong> 06:30 - 22:00
+          </div>
+          <div class="mb-2">
+            <strong>Thứ 7 - Chủ Nhật:</strong> 06:00 - 23:00
+          </div>
+          <div class="mb-3"><strong>Lễ Tết:</strong> 07:00 - 21:00</div>
+          <h6 class="mb-2">Liên Kết Nhanh</h6>
+          <div class="d-flex flex-column">
+            <a href="#" class="mb-1">Tìm Cửa Hàng</a>
+            <a href="#" class="mb-1">Chính Sách Bảo Mật</a>
+            <a href="#" class="mb-1">Điều Khoản Sử Dụng</a>
+            <a href="#" class="mb-1">Tuyển Dụng</a>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <h5 class="mb-3">Kết Nối Với Chúng Tôi</h5>
+          <div class="social-icons mb-4">
+            <a href="#" title="Facebook">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="#" title="Instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" title="YouTube">
+              <i class="ri-youtube-fill"></i>
+            </a>
+            <a href="#" title="TikTok">
+              <i class="ri-tiktok-fill"></i>
+            </a>
+            <a href="#" title="Zalo">
+              <i class="ri-chat-smile-fill"></i>
+            </a>
+          </div>
+          <h6 class="mb-2">Tải Ứng Dụng</h6>
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-outline-light btn-sm">
+              <i class="ri-google-play-fill me-1"></i>
+              Google Play
+            </a>
+            <a href="#" class="btn btn-outline-light btn-sm">
+              <i class="ri-app-store-fill me-1"></i>
+              App Store
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" style="border-color: var(--highland-gold);" />
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="mb-0">
+            &copy; 2024 Highlands Coffee. Tất cả quyền được bảo lưu.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">Thiết kế bởi Highlands Coffee Vietnam</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script id="smooth-scroll">
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll('a[href^="#"]');
+      links.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    });
+  </script>
+  <script id="news-handler">
+    document.addEventListener("DOMContentLoaded", function () {
+      const loadMoreBtn = document.querySelector("#news .btn-lg");
+      loadMoreBtn.addEventListener("click", function () {
+        this.innerHTML = '<i class="ri-loader-4-line ri-spin me-2"></i>Đang tải...';
+        setTimeout(() => {
+          this.innerHTML = '<i class="ri-article-line me-2"></i>Xem Thêm Tin Tức';
+        }, 1500);
+      });
+    });
+  </script>
+  <script id="navbar-scroll">
+    document.addEventListener("DOMContentLoaded", function () {
+      const navbar = document.querySelector(".navbar-custom");
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 100) {
+          navbar.style.boxShadow = "0 4px 8px rgba(0,0,0,0.2)";
+        } else {
+          navbar.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

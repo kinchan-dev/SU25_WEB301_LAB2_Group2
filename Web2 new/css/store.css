@@ -1,0 +1,269 @@
+:root {
+  --highland-brown: #3F2305;
+  --highland-light-brown: #8B4513;
+  --highland-cream: #F5E6D3;
+  --highland-gold: #DAA520;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+.hero-banner {
+  background: linear-gradient(135deg, var(--highland-brown) 0%, var(--highland-light-brown) 100%);
+  color: white;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://readdy.ai/api/search-image?query=highland%20coffee%20beans%20steaming%20cup%20warm%20brown%20background%20cozy%20atmosphere%20vietnamese%20coffee%20culture%20traditional%20brewing&width=1200&height=600&seq=hero001&orientation=landscape');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+.floating-animation {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.navbar-custom {
+  background-color: var(--highland-brown) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: var(--highland-gold) !important;
+}
+.section-padding {
+  padding: 4rem 0;
+}
+.card-custom {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+.table-custom {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.table-custom th {
+  background-color: var(--highland-brown);
+  color: white;
+  border: none;
+}
+.table-custom td {
+  border-color: #f8f9fa;
+}
+.special-section {
+  background: linear-gradient(45deg, var(--highland-cream) 0%, #fff 100%);
+  border-radius: 15px;
+  padding: 3rem;
+  margin: 2rem 0;
+}
+.service-list {
+  list-style: none;
+  padding: 0;
+}
+.service-list li {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.service-list li:hover {
+  background: var(--highland-cream);
+  transform: translateX(10px);
+}
+.contact-form {
+  background: linear-gradient(135deg, #fff 0%, var(--highland-cream) 100%);
+  border-radius: 15px;
+  padding: 3rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+  transition: border-color 0.3s ease;
+}
+.form-control:focus {
+  border-color: var(--highland-brown);
+  box-shadow: 0 0 0 0.2rem rgba(63, 35, 5, 0.25);
+}
+.btn-highland {
+  background: linear-gradient(135deg, var(--highland-brown) 0%, var(--highland-light-brown) 100%);
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-highland:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: white;
+}
+.footer-custom {
+  background-color: var(--highland-brown);
+  color: white;
+  padding: 3rem 0 1rem;
+}
+.footer-custom a {
+  color: var(--highland-gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-custom a:hover {
+  color: white;
+}
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: var(--highland-gold);
+  color: var(--highland-brown);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+.social-icons a:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--highland-gold);
+}
+/*start*/
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #fff8f1;
+  color: #2e2e2e;
+}
+
+.animated-banner {
+  background: #b22222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  animation: slideDown 1s ease-in-out forwards;
+}
+@keyframes slideDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  background: #8b0000;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+.main-nav a.active,
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Timeline layout */
+.timeline {
+  width: 90%;
+  max-width: 1200px;
+  margin: 4rem auto;
+  position: relative;
+}
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.timeline-item img {
+  width: 45%;
+  border-radius: 10px;
+}
+.timeline-item .content {
+  width: 55%;
+  padding: 0 2rem;
+}
+.timeline-item.left {
+  flex-direction: row;
+}
+.timeline-item.right {
+  flex-direction: row-reverse;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s ease forwards;
+}
+.fade-in-right {
+  animation: fadeInRight 1s ease forwards;
+}
+@keyframes fadeInLeft {
+  from { transform: translateX(-80px) scale(0.8); opacity: 0; }
+  to { transform: translateX(0) scale(1); opacity: 1; }
+}
+@keyframes fadeInRight {
+  from { transform: translateX(80px) scale(0.8); opacity: 0; }
+  to { transform: translateX(0) scale(1); opacity: 1; }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .timeline-item img,
+  .timeline-item .content {
+    width: 100%;
+  }
+}
+
+/* Hover effect for address names */
+.timeline-item .content h3:hover {
+  color: var(--highland-gold); /* Change to your desired color */
+  cursor: pointer; /* Optional: adds a hand cursor on hover */
+}
